@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    allowedHosts: "jiqfmkv7ub.ap-northeast-1.awsapprunner.com"
+    allowedHosts: [ 
+      'jiqfmkv7ub.ap-northeast-1.awsapprunner.com'
+    ]
   }
 })
